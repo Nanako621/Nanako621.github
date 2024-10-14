@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section {
+    width: 80%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.footer-section h2, .footer-section p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.footer-section img {
+    width: 600px; /* 指定图片的宽度 */
+    height: auto; /* 保持比例 */
+    object-fit: cover;
+    display: block;
+    margin: 0 auto; /* 使图片居中 */
+}
+.footer-section a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+section{
+    background-color: #fff2cc
+}
